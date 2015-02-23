@@ -3747,7 +3747,7 @@ body .colapsed-menu::-webkit-scrollbar {
   margin: 0 0 0 30px;
   float: left;
 }
-.header-12 .navbar .nav button {
+.header-12 .navbar .nav a {
   margin-left: 10px;
   padding: 6px 12px 6px 12px;
 }
