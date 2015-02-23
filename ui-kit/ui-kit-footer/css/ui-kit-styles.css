@@ -1597,6 +1597,11 @@ body .colapsed-menu::-webkit-scrollbar {
 .footer-7 .container > a [class*="fui-"] {
   font-size: 22px;
 }
+.footer-7 .copyright {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
 .footer-7 .social-btns {
   white-space: nowrap;
   position: absolute;
@@ -1632,8 +1637,14 @@ body .colapsed-menu::-webkit-scrollbar {
 .footer-7 .social-btns > *:hover > * {
   top: -100%;
 }
+@media (max-width: 991px) {
+    .footer-7 .container > .copyright {
+        width:100px;
+        font-size: 12px;
+    }
+}
 @media (max-width: 600px) {
-  .footer-7 .container > a,
+    .footer-7 .container > .copyright,
   .footer-7 .scroll-btn {
     display: none;
   }
